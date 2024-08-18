@@ -1,0 +1,15 @@
+
+
+1. go mod init github.com/dunky-star/go-minimal-fiber
+
+2. mkdir internal/api
+
+3. touch main.go
+
+4.  go get github.com/gofiber/fiber/v2
+
+
+
+Testing: 
+
+curl -v localhost:3000/ | jq   ---> For getting API Data
